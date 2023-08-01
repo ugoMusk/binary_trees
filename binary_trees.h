@@ -1,6 +1,9 @@
-#ifnef "__BINARY_TREES__"
-#define "__BINARY_TREES__"
+#ifndef BINARY_TREES_H
+#define BINARY_TREES_H
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
 /**
  * struct binary_tree_s - Binary tree node
  *
@@ -23,6 +26,6 @@ typedef struct binary_tree_s binary_tree_t;
 /**
  * Function prototypes
  */
-binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
+binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 
 #endif /* __BINARY_TREES__ */
