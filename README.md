@@ -12,4 +12,4 @@ Write a function that creates a binary tree node
 
 ### Result:
 <sup><sub>RESULT is influence by the [0-main.c](./0-main.c) and [binary_tree_print.c](./binary_tree_print.c) test modules </sub></sup>
-![binary_tree](./task0_output.jpg)
+![binary_tree](./images/task0_output.jpg)
