@@ -1,7 +1,6 @@
-x*~
+*~
 *.out
-*.gch*~
-*.gcha.out0-node
+*.gch
 1-left
 ignore.sh
 ignore.sh~
