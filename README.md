@@ -20,7 +20,7 @@ Write a function that creates a binary tree node
 ![images/task0_output.jpg](images/task0_output.jpg)
 
 
-TASK-#1 Insert left | : [1-binary_tree_insert_left.c](1-binary_tree_insert_left.c)
+TASK-#1 Insert left | : [1-binary_tree_insert_left.c)(1-binary_tree_insert_left.c);
 
 Write a function that inserts a node as the left-child of another node
 
