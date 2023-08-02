@@ -1,7 +1,7 @@
 # Binary Trees
 
-```diff
-- ## TASKS:
+## ```diff
+- TASKS:
 ```
 ### TASK-#0 New Node | : [0-binary_tree_node.c](0-binary_tree_node.c)
 
