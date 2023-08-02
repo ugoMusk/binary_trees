@@ -1,6 +1,6 @@
 # Binary search trees
 
-## Task-#0:[0-binary_tree_node.c](./0-binary_tree_node.c)
+## Task-#0: [0-binary_tree_node.c](./0-binary_tree_node.c)
 
 Write a function that creates a binary tree node
 
@@ -11,4 +11,5 @@ Write a function that creates a binary tree node
 * Your function must return a pointer to the new node, or NULL on failure
 
 ### Result:
+<sup><sub>RESULT is influence by the [0-main.c](./0-main.c) and [binary_tree_print.c](./binary_tree_print.c) test modules </sub></sup>
 ![binary_tree](./task0_output.jpg)
