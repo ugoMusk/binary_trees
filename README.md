@@ -29,3 +29,8 @@ Write a function that inserts a node as the left-child of another node
 * And value is the value to store in the new node
 * Your function must return a pointer to the created node, or NULL on failure or if parent is NULL
 * If parent already has a left-child, the new node must take its place, and the old left-child must be set as the left-child of the new node.
+
+### RESULT:
+
+<sup><sub>RESULT is influenced by [1-main.c](./main_tests/1-main.c) and the [binary_tree_print.c](./binary_tree_print.c) and a dependency from the previous task</sub></sup>
+![images/task0_output.jpg](images/task0_output.jpg)
