@@ -33,4 +33,4 @@ Write a function that inserts a node as the left-child of another node
 ### RESULT:
 
 <sup><sub>RESULT is influenced by [1-main.c](./main_tests/1-main.c) and the [binary_tree_print.c](./binary_tree_print.c) and a dependency from the previous task</sub></sup>
-![images/task0_output.jpg](images/task0_output.jpg)
+![images/task1_output.jpg](images/task1_output.jpg)
