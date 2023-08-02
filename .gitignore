@@ -1,3 +1,12 @@
-*~
+x*~
 *.out
-*.gch
+*.gch*~
+*.gcha.out0-node
+1-left
+ignore.sh
+ignore.sh~
+2-right
+3-del
+a.out
+0-node
+0-main.c
