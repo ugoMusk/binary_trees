@@ -1,5 +1,5 @@
 # Binary Trees
 
 ```diff
-- ## TASKS:
+## TASKS:
 ```
