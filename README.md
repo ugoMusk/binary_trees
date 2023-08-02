@@ -1,6 +1,8 @@
 # Binary Trees
 
+```diff
 - TASKS:
+```
 
 ### TASK-#0 New Node | : [0-binary_tree_node.c](0-binary_tree_node.c)
 
@@ -14,4 +16,5 @@ Write a function that creates a binary tree node
 
 ### RESULT:
 
+<sup><sub>RESULT is influenced by [0-main.c](./main_tests/0-main.c) and the [binary_tree_print.c](./binary_tree_print.c)</sub></sup>
 ![images/task0_output.jpg](images/task0_output.jpg)
