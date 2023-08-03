@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 Binary trees
 Binary tree (note the first line: Not to be confused with B-tree.)(https://en.wikipedia.org/wiki/Binary_tree)
 Data Structure and Algorithms - Tree(https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm)
@@ -43,3 +43,12 @@ Write a function that inserts a node as the left-child of another node
 <sup><sub>RESULT is influenced by [1-main.c](./main_tests/1-main.c) and the [binary_tree_print.c](./binary_tree_print.c) and a dependency from the previous task</sub></sup>
 ![images/task1_output.jpg](images/task1_output.jpg)
 >>>>>>> 8e788803bdc6e01bbb02ba5dcba6233aa6d40cbb
+
+TASK -#0
+Write a function that inserts a node as the right-child of another node
+
+Prototype: binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
+Where parent is a pointer to the node to insert the right-child in
+And value is the value to store in the new node
+Your function must return a pointer to the created node, or NULL on failure or if parent is NULL
+If parent already has a right-child, the new node must take its place, and the old right-child must be set as the right-child of the new node.
