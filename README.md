@@ -101,3 +101,11 @@ And func is a pointer to a function to call for each node. The value in the node
 If tree or func is NULL, do nothing
 
 TASK -#9
+Write a function that measures the height of a binary tree
+
+Prototype: size_t binary_tree_height(const binary_tree_t *tree);
+Where tree is a pointer to the root node of the tree to measure the height.
+If tree is NULL, your function must return 0
+
+TASK -#10
+
