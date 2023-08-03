@@ -115,3 +115,11 @@ Where tree is a pointer to the node to measure the depth
 If tree is NULL, your function must return 0
 
 TASK -#11
+Write a function that measures the size of a binary tree
+
+Prototype: size_t binary_tree_size(const binary_tree_t *tree);
+Where tree is a pointer to the root node of the tree to measure the size
+If tree is NULL, the function must return 0
+
+TASK -#12
+
