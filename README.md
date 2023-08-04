@@ -35,6 +35,7 @@ Write a function that inserts a node as the left-child of another node
 <sup><sub>RESULT is influenced by [1-main.c](./main_tests/1-main.c) and the [binary_tree_print.c](./binary_tree_print.c) and a dependency from the previous task</sub></sup>
 ![images/task1_output.jpg](images/task1_output.jpg)
 
+
 ### TASK-#2 Insert Right | : [2-binary_tree_insert_right.c](2-binary_tree_insert_right.c)
 
 Write a function that inserts a node as the right-child of another node
@@ -50,12 +51,20 @@ Write a function that inserts a node as the right-child of another node
 <sup><sub>RESULT is influenced by [2-main.c](./main_tests/2-main.c) and the [binary_tree_print.c](./binary_tree_print.c) and a dependencies from the previous tasks</sub></sup>
 ![images/task2_output.jpg](images/task2_output.jpg)
 
-TASK -#3
+
+### TASK-#3 Delete | : [3-binary_tree_delete.c](3-binary_tree_delete.c)
+
 Write a function that deletes an entire binary tree
 
-Prototype: void binary_tree_delete(binary_tree_t *tree);
-Where tree is a pointer to the root node of the tree to delete
-If tree is NULL, do nothing
+* Prototype: void binary_tree_delete(binary_tree_t *tree);
+* Where tree is a pointer to the root node of the tree to delete
+* If tree is NULL, do nothing
+
+### RESULT:
+
+<sup><sub>RESULT is influenced by [3-main.c](./main_tests/3-main.c) and the [binary_tree_print.c](./binary_tree_print.c) and  dependencies from the previous tasks</sub></sup>
+![images/task3_output.jpg](images/task3_output.jpg)
+
 
 ### TASK-#4 Is leaf | : [4-binary_tree_is_leaf.c](4-binary_tree_is_leaf.c)
 
@@ -70,6 +79,7 @@ Write a function that checks if a node is a leaf
 
 <sup><sub>RESULT is influenced by [4-main.c](./main_tests/4-main.c) and the [binary_tree_print.c](./binary_tree_print.c) and  dependencies from the previous tasks</sub></sup>
 ![images/task4_output.jpg](images/task4_output.jpg)
+
 
 TASK -#5
 Write a function that checks if a given node is a root
