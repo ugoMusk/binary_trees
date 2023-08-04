@@ -36,7 +36,7 @@ Write a function that inserts a node as the left-child of another node
 <sup><sub>RESULT is influenced by [1-main.c](./main_tests/1-main.c) and the [binary_tree_print.c](./binary_tree_print.c) and a dependency from the previous task</sub></sup>
 ![images/task1_output.jpg](images/task1_output.jpg)
 
-TASK-#2 Insert Right | : [2-binary_tree_insert_right.c](2-binary_tree_insert_right.c)
+### TASK-#2 Insert Right | : [2-binary_tree_insert_right.c](2-binary_tree_insert_right.c)
 
 Write a function that inserts a node as the right-child of another node
 
@@ -149,12 +149,19 @@ Prototype: int binary_tree_is_full(const binary_tree_t *tree);
 Where tree is a pointer to the root node of the tree to check
 If tree is NULL, your function must return 0
 
-TASK -#16
+### TASK-#16 Is Perfect | : [16-binary_tree_is_perfect.c](16-binary_tree_is_perfect.c)
+
 Write a function that checks if a binary tree is perfect
 
-Prototype: int binary_tree_is_perfect(const binary_tree_t *tree);
-Where tree is a pointer to the root node of the tree to check
-If tree is NULL, your function must return 0
+* NOTE: A tree is perfect if all its leaf nodes are at the same level and all none leaf nodes have two children
+* Prototype: int binary_tree_is_perfect(const binary_tree_t *tree);
+*Where tree is a pointer to the root node of the tree to check
+*If tree is NULL, your function must return 0
+
+### RESULT:
+
+<sup><sub>RESULT is influenced by [16-main.c](./main_tests/16-main.c) and the [binary_tree_print.c](./binary_tree_print.c) modules and dependencies from previous tasks</sub></sup>
+![images/task16_output.jpg](images/task16_output.jpg)
 
 TASK -#17
 Write a function that finds the sibling of a node
