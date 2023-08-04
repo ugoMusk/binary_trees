@@ -1,4 +1,3 @@
-
 # Binary Trees
 
 ```diff
@@ -58,13 +57,19 @@ Prototype: void binary_tree_delete(binary_tree_t *tree);
 Where tree is a pointer to the root node of the tree to delete
 If tree is NULL, do nothing
 
-TASK -#4
+### TASK-#4 Is leaf | : [4-binary_tree_is_leaf.c](4-binary_tree_is_leaf.c)
+
 Write a function that checks if a node is a leaf
 
-Prototype: int binary_tree_is_leaf(const binary_tree_t *node);
-Where node is a pointer to the node to check
-Your function must return 1 if node is a leaf, otherwise 0
-If node is NULL, return 0
++ Prototype: int binary_tree_is_leaf(const binary_tree_t *node);
++ Where node is a pointer to the node to check
++ Your function must return 1 if node is a leaf, otherwise 0
++ If node is NULL, return 0
+
+### RESULT:
+
+<sup><sub>RESULT is influenced by [4-main.c](./main_tests/4-main.c) and the [binary_tree_print.c](./binary_tree_print.c) and  dependencies from the previous tasks</sub></sup>
+![images/task4_output.jpg](images/task4_output.jpg)
 
 TASK -#5
 Write a function that checks if a given node is a root
