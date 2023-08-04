@@ -18,7 +18,7 @@ Write a function that creates a binary tree node
 
 <sup><sub>RESULT is influenced by [0-main.c](./main_tests/0-main.c) and the [binary_tree_print.c](./binary_tree_print.c)</sub></sup>
 ![images/task0_output.jpg](images/task0_output.jpg)
-
+***
 
 TASK-#1 Insert left | : [1-binary_tree_insert_left.c)(1-binary_tree_insert_left.c);
 
@@ -34,7 +34,7 @@ Write a function that inserts a node as the left-child of another node
 
 <sup><sub>RESULT is influenced by [1-main.c](./main_tests/1-main.c) and the [binary_tree_print.c](./binary_tree_print.c) and a dependency from the previous task</sub></sup>
 ![images/task1_output.jpg](images/task1_output.jpg)
-
+***
 
 ### TASK-#2 Insert Right | : [2-binary_tree_insert_right.c](2-binary_tree_insert_right.c)
 
@@ -50,7 +50,7 @@ Write a function that inserts a node as the right-child of another node
 
 <sup><sub>RESULT is influenced by [2-main.c](./main_tests/2-main.c) and the [binary_tree_print.c](./binary_tree_print.c) and a dependencies from the previous tasks</sub></sup>
 ![images/task2_output.jpg](images/task2_output.jpg)
-
+***
 
 ### TASK-#3 Delete | : [3-binary_tree_delete.c](3-binary_tree_delete.c)
 
@@ -64,7 +64,7 @@ Write a function that deletes an entire binary tree
 
 <sup><sub>RESULT is influenced by [3-main.c](./main_tests/3-main.c) and the [binary_tree_print.c](./binary_tree_print.c) and  dependencies from the previous tasks</sub></sup>
 ![images/task3_output.jpg](images/task3_output.jpg)
-
+***
 
 ### TASK-#4 Is leaf | : [4-binary_tree_is_leaf.c](4-binary_tree_is_leaf.c)
 
@@ -79,15 +79,22 @@ Write a function that checks if a node is a leaf
 
 <sup><sub>RESULT is influenced by [4-main.c](./main_tests/4-main.c) and the [binary_tree_print.c](./binary_tree_print.c) and  dependencies from the previous tasks</sub></sup>
 ![images/task4_output.jpg](images/task4_output.jpg)
+***
 
+### TASK-#5 Is root | : [5-binary_tree_is_root.c](5-binary_tree_is_root.c)
 
-TASK -#5
 Write a function that checks if a given node is a root
 
-Prototype: int binary_tree_is_root(const binary_tree_t *node);
-Where node is a pointer to the node to check
-Your function must return 1 if node is a root, otherwise 0
-If node is NULL, return 0
+* Prototype: int binary_tree_is_root(const binary_tree_t *node);
+* Where node is a pointer to the node to check
+* Your function must return 1 if node is a root, otherwise 0
+* If node is NULL, return 0
+
+### RESULT:
+
+<sup><sub>RESULT is influenced by [5-main.c](./main_tests/5-main.c) and the [binary_tree_print.c](./binary_tree_print.c) and  dependencies from the previous tasks</sub></sup>
+![images/task5_output.jpg](images/task5_output.jpg)
+***
 
 TASK -#6
 Write a function that goes through a binary tree using pre-order traversal
